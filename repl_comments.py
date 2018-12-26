@@ -8,11 +8,17 @@ def create_hash(password):              # This function is taken from hash_passw
 
 input_list = []
 a = 1
+
+def call_password():
+    global hsh1
+    pw1 = input('Please enter your password:')  # This line is taken from hash_password
+    hsh1 = create_hash(pw1)
+
+
 while True:
     user_input = input("Enter your comment: ")
 
-    pw1 = input('Please enter your password:')   # This line is taken from hash_password
-    hsh1 = create_hash(pw1)
+    call_password()
 
     pw_original = "TerriblePassword"             # This line is taken from hash_password.py
     hsh_original = create_hash(pw_original)      # This line is taken from hash_password.py

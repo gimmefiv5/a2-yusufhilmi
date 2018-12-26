@@ -1,0 +1,135 @@
+body{
+font-family: Denk One;
+    background-color:dimgray;
+}
+
+#header_keys{
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 150px 20px 150px;
+    padding: 50px;
+    border: none;
+    border-radius: 300px;
+    position:relative;
+}
+h1:hover{
+    background-color: bisque;
+    background-position:top;
+    
+}
+
+#logo_left{
+    width:60px;
+    height: 143px;
+    margin-right: 20px;
+    vertical-align:top;
+
+
+}
+
+#logo_right{
+    width:60px;
+    height: 143px;
+    margin-left:20px;
+    vertical-align: top;
+   
+    
+}
+
+#list_header{
+    font-size: 19px;
+    background-color: dimgray;
+    font-style: oblique;
+}
+ul{    
+    list-style-type:none;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 10px;
+    background-color: gainsboro;
+    text-decoration: none;
+}
+
+#listen_on{
+    
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.spotify{
+    width: 90px;
+}
+
+
+
+.lists {
+    float: left;
+    margin: 20px 0px 20px 10px;
+    padding: 10px;
+    position:static;
+    
+    
+}
+a:hover{
+    background-color:#4d0000;
+}
+
+.para{
+    margin-left: 200px;
+    margin-right: auto;
+    padding: 20px;
+}
+
+
+.black_keys{
+    width: 340px;
+    height: 226px;
+    padding:5px;
+}
+
+
+.images{
+    margin-left: 200px;
+    padding: 30px;
+    margin-right: auto;
+    
+    
+}
+
+table:hover{
+    background-color: bisque;
+}
+
+td{
+    text-align: center;
+    padding:8px;
+    border:solid;
+    border-width: medium;
+    background-color: dimgray;
+}
+
+.form{
+    margin-left: 200px;
+    padding: 30px;
+    margin-right: auto;
+    border: 1.5px dotted #CCE;
+    border-radius: 1em;
+}
+
+.comment{
+    height: 2em;
+    font-size: 15px;
+}
+
+.password{
+    height: 20px;
+}
+label {
+
+  display: inline-block;
+  text-align: right;
+}
