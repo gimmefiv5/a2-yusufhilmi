@@ -21,9 +21,8 @@ def htmlify(comment):
         <meta charset="utf-8">
         <title>The Black Keys</title>
         <link rel="stylesheet" href="/static/style.css">
-        </head>
-            </head>
-            <body>
+    </head>
+    <body>
             <div>
             <h1 id="header_keys">
                 <img id="logo_left" src="./static/logo.png" alt="logo">THE BLACK KEYS<img id="logo_right" src="./static/logo.png" alt="logo">
@@ -62,7 +61,7 @@ def htmlify(comment):
             <form action="/" method="post">
                 <div>
                     
-                    <label for="radio">Which one did you like most?</label>
+                    <label>Which one did you like most?</label>
                     <br><br>
                     
                     <input type ="radio" name="user_choice" value="dan">Dan Auerbach<br>
@@ -71,12 +70,12 @@ def htmlify(comment):
                 
                 <div>
                     <br><br><br>
-                    <label for="name">Enter Your Comment:</label>
+                    <label>Enter Your Comment:</label>
                     <input class="comment" type="text"  name="user_name">
                 </div>
                 <div>
                     <br>
-                    <label for="mail">Enter Your Password:</label>
+                    <label>Enter Your Password:</label>
                     <input class="password" type="password" name="user_password">
                     <br><br>
                         
@@ -87,8 +86,8 @@ def htmlify(comment):
                 </ol>
             </form>
         </div>
-            </body>
-        </html>
+    </body>
+</html>
     """ % (comment)
     return page
 
