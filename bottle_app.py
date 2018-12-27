@@ -66,6 +66,13 @@ def htmlify(comment):
                     
                     <input type ="radio" name="user_choice" value="dan">Dan Auerbach<br>
                     <input type ="radio" name="user_choice" value="patrick">Patrick Carney<br>
+                    <br><br><br>
+                    <h6>Select the songs you liked</h6>
+                    <input type="checkbox" name="user_song"> Tighten Up <br>
+                    <input type="checkbox" name="user_song"> Howlin For You <br>
+                    <input type="checkbox" name="user_song"> Little Black Submarines <br>
+                    <input type="checkbox" name="user_song"> Lonely Boy <br>
+                    <input type="checkbox" name="user_song"> Gold on the Ceiling <br>
                 </div>
                 
                 <div>
